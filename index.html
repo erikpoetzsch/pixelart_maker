@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<!-- head definition -->
+<head>
+  <title>The all new Pixel Art Maker!</title>
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- body definition -->
+<body>
+  <h1>Erik's Retro Pixel Art Maker</h1> <!-- main heading -->
+
+  <h2>Choose your individual grid size</h2>
+  <form id="sizePicker"> <!-- picking the size of the grid -->
+      Height:
+      <input type="number" id="inputHeight" name="height" min="1" value="1">
+      Width:
+      <input type="number" id="inputWidth" name="width" min="1" value="1">
+      <input type="submit">
+  </form>
+
+  <h2>Choose your color</h2>
+  <input type="color" id="colorPicker">
+
+  <h2>Your canvas: </h2>
+<table id="PixelCanvas"><tbody></tbody></table>
+
+    <script src="designs.js"></script>
+</body>
+
+</html>
