@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  font-weight: bold;
+  background-image: url(background.jpg); /*appropriate image for my font*/
+  /* source of the image:https://wallpapersgood.com.de/textures/oboi-
+  tekstura-zelenyj-fon-uzor-w38664/download/1920x1080 */
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive; /*cool pixel-like font */
+  font-size: 55px;
+  margin: 0.75em;
+  padding: 0.5em;
+  border: 8px outset orange;
+  background-color: lightblue;
+  text-align: center;
+}
+
+h2 {
+  margin: 0.75em;
+}
+
+table,td,tr {
+  border: 2px solid black;
+  background-color: white
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
+
+input[type="number"] {
+  width: 3em;
+}
